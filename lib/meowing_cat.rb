@@ -1,9 +1,11 @@
 ## code your solution here. 
 require 'pry'
 class Cat
-attr_accessor :name, :meow
-    def initialize()
-    @meow = puts "meow!"
+    # this is the getter and setter for name so maru.name = "Maru" is read & written
+    attr_accessor :name
+    # this is the getter that gets the value of the instance variable.
+    def meow
+        puts "meow!"
     end
 end
 
